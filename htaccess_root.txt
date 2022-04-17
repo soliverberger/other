@@ -14,15 +14,7 @@ RewriteRule ^linkliste/(.*)$ linkliste/index.php?$1 [L,QSA]
 
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
-RewriteRule ^forum/(.*)$ forum/index.php?$1 [L,QSA]
-
-RewriteCond %{SCRIPT_FILENAME} !-d
-RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteRule ^calendar/(.*)$ calendar/index.php?$1 [L,QSA]
-
-RewriteCond %{SCRIPT_FILENAME} !-d
-RewriteCond %{SCRIPT_FILENAME} !-f
-RewriteRule ^cemetery/(.*)$ cemetery/index.php?$1 [L,QSA]
 
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
