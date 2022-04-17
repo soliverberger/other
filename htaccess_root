@@ -1,0 +1,29 @@
+<IfModule mod_headers.c>
+    Header add Strict-Transport-Security "max-age=31536000; includeSubDomains"
+    Header add Content-Security-Policy "script-src: 'self'"
+    Header add X-Content-Type-Options "nosniff"
+    Header set Referrer-Policy "same-origin"
+    Header add Permissions-Policy "geolocation=(self), microphone=()"
+</IfModule>
+
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^linkliste/(.*)$ linkliste/index.php?$1 [L,QSA]
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^forum/(.*)$ forum/index.php?$1 [L,QSA]
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^calendar/(.*)$ calendar/index.php?$1 [L,QSA]
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^cemetery/(.*)$ cemetery/index.php?$1 [L,QSA]
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?$1 [L,QSA]
