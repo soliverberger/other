@@ -17,10 +17,12 @@ mcu-fandom.svenoliverberger.de
 news.svenoliverberger.de
 pubg-fandom.svenoliverberger.de
 quiz.svenoliverberger.de
+shop.svenoliverberger.de
 showroom.svenoliverberger.de
 support.svenoliverberger.de
 the-mentalist.svenoliverberger.de
 tracker.svenoliverberger.de
+updateserver.svenoliverberger.de
 wissensdatenbank.svenoliverberger.de
 wissensportal.svenoliverberger.de
 woltlab.svenoliverberger.de
