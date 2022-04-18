@@ -15,6 +15,7 @@ lost-in-blue.svenoliverberger.de
 marktplatz.svenoliverberger.de
 mcu-fandom.svenoliverberger.de
 news.svenoliverberger.de
+points-of-interests.svenoliverberger.de
 pubg-fandom.svenoliverberger.de
 quiz.svenoliverberger.de
 shop.svenoliverberger.de
